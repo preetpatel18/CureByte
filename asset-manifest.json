@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CureByte/static/css/main.267fc265.css",
+    "main.js": "/CureByte/static/js/main.01d0b1df.js",
+    "static/js/453.b22d1185.chunk.js": "/CureByte/static/js/453.b22d1185.chunk.js",
+    "index.html": "/CureByte/index.html",
+    "main.267fc265.css.map": "/CureByte/static/css/main.267fc265.css.map",
+    "main.01d0b1df.js.map": "/CureByte/static/js/main.01d0b1df.js.map",
+    "453.b22d1185.chunk.js.map": "/CureByte/static/js/453.b22d1185.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.267fc265.css",
+    "static/js/main.01d0b1df.js"
+  ]
+}

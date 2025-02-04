@@ -1,0 +1,25 @@
+# Node modules directory
+node_modules/
+
+# Python packages
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+
+# Mac and Linux system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor config files
+.vscode/
+.idea/
+
+# Compiled files
+*.o
+*.so
+*.dll
+*.exe
+.pyc
