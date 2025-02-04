@@ -1,0 +1,235 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/* Styles for the App component */
+.App {
+  text-align: center;
+  background: linear-gradient(to top, #007bff 50%, #ffffff 100%);
+  height: 100vh;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .subtitle {
+    font-size: 2em; /* Adjust the size as needed */
+    font-weight: bold; /* Optional: Makes the text bold */
+  }
+
+  .logo {
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+}
+
+/* Styles for the StudentPage component */
+.student-page {
+  text-align: center;
+  background: linear-gradient(to top, #007bff 50%, #ffffff 100%);
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.student-page-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.logo {
+  width: 170px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+}
+
+.description {
+  font-size: 1.5em;
+  max-width: 600px;
+  margin: 10px auto;
+  color: white;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.textbox-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.input-text {
+  width: 200%; /* This allows the input to fill its container */
+  max-width: none; /* Remove max-width if present */
+  height: 350px; /* Height remains the same */
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  background-color: white;
+  color: black;
+  resize: both; /* User can resize */
+}
+
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #007bff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 40px;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+  background-color: #ededed;
+  transform: translateY(-2px);
+}
+
+.status-message {
+  font-size: 1.1rem;
+}
+
+
+
+/* TeacherPage Specific Styles */
+.teacher-page-container {
+  text-align: center;
+  background: linear-gradient(to top, #007bff 50%, #ffffff 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.teacher-page {
+  background: transparent;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.teacher-page-header {
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+.teacher-page form {
+  margin: auto;
+  padding: 20px 20px;
+  width: 80%;
+  max-width: 600px;
+  border: 2px solid #007bff;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.teacher-page select {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+/* Rating Table */
+.teacher-page .rating-table {
+  display: grid;
+  grid-template-columns: 1fr repeat(5, minmax(40px, 1fr));
+  width: 100%;
+  background-color: white;
+  color: black;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+.teacher-page .rating-row {
+  display: contents;
+}
+
+.teacher-page .rating-cell {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.teacher-page .rating-label {
+  text-align: left;
+  padding-left: 10px;
+}
+
+/* Scale labels */
+.teacher-page .scale-labels {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Button styles */
+.teacher-page .button {
+  background-color: #ffffff;
+  color: #007bff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 40px;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.2s;
+  margin-top: 20px; /* Add this line */
+}
+.teacher-page h2 {
+  color: gray;
+}
+
+.teacher-page .button:hover {
+  background-color: #ededed;
+  transform: translateY(-2px);
+}
